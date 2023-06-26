@@ -1,0 +1,39 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+:root
+{
+	--gray0:rgba(0,0,0,255);
+	--gray1:rgba(20,20,20,255);
+	--gray2:rgba(40,40,40,255);
+	--gray3:rgba(120,120,120,255);
+	--gray4:rgba(200,200,200,255);
+	--gray5:rgba(255,255,255,255);
+}
+
+.light
+{
+	--blue:rgba(30,130,190,25);
+	--red:rgba(230,120,30,255);
+	--bgColor:var(--gray5);
+	--secBgColor:var(--gray4);
+	--shadowColor: var(--gray3);
+	--textColor: var(--gray0);
+	--secTextColor: var(--gray3);
+}
+
+.dark
+{
+	--blue:rgba(60,230,255,25);
+	--red:rgba(250,150,100,255);
+	--bgColor:var(--gray1);
+	--secBgColor: var(--gray2);
+	--shadowColor:var(--gray3);
+	--textColor: var(--gray5);
+	--secTextColor: var(--gray4);
+}
+
